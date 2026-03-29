@@ -1,0 +1,22 @@
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "clinic_management"
+authors = [
+    {name = "Clinic", email = "admin@clinic.com"}
+]
+description = "Dental & Laser Clinic Management for ERPNext v16"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+version = "1.0.0"
+
+dependencies = [
+    "frappe>=16.0.0",
+    "erpnext>=16.0.0",
+]
+
+[tool.flit.module]
+name = "clinic_management"

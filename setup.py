@@ -6,11 +6,12 @@ with open("requirements.txt") as f:
 setup(
     name="clinic_management",
     version="1.0.0",
-    description="Dental & Laser Clinic Management for ERPNext",
+    description="Dental & Laser Clinic Management for ERPNext v16",
     author="Clinic",
     author_email="admin@clinic.com",
     packages=find_packages(),
     zip_safe=False,
     include_package_data=True,
     install_requires=install_requires,
+    python_requires=">=3.12",
 )
