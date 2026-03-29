@@ -23,7 +23,7 @@
 git init
 git add .
 git commit -m "Initial clinic management app"
-git remote add origin https://github.com/YOUR_USERNAME/clinic_management.git
+git remote add origin https://github.com/Eddie1308/clinicerp.git
 git push -u origin main
 ```
 
@@ -35,10 +35,10 @@ git push -u origin main
 cd /home/frappe/frappe-bench
 
 # تنزيل الـ App من GitHub
-bench get-app https://github.com/YOUR_USERNAME/clinic_management.git
+bench get-app https://github.com/Eddie1308/clinicerp.git
 
 # تثبيت الـ App على الـ Site بتاعك
-bench --site YOUR_SITE_NAME install-app clinic_management
+bench --site YOUR_SITE_NAME install-app clinicerp
 
 # تحديث الـ Site
 bench --site YOUR_SITE_NAME migrate
